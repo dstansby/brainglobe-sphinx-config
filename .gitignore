@@ -84,4 +84,4 @@ venv/
 
 
 # Docs
-test_doc/_build
+doc/_build
