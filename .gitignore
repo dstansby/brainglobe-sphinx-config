@@ -81,3 +81,7 @@ venv/
 
 # written by setuptools_scm
 **/_version.py
+
+
+# Docs
+test_doc/_build

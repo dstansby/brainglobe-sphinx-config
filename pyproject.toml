@@ -43,17 +43,12 @@ dev = [
 [build-system]
 requires = [
     "setuptools>=45",
-    "wheel",
     "setuptools_scm[toml]>=6.2",
 ]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
 include-package-data = true
-
-[tool.setuptools.packages.find]
-include = ["brainglobe_sphinx_config*"]
-exclude = ["tests*"]
 
 [tool.pytest.ini_options]
 addopts = "--cov=brainglobe_sphinx_config"
