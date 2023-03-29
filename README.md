@@ -1,0 +1,1 @@
+# brainglobe-sphinx-config
