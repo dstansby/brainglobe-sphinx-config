@@ -12,33 +12,12 @@ Custom links added to this structure.
       {{ _("Site Navigation") }}
     </p>
     <ul class="bd-navbar-elements navbar-nav">
-        <a class="nav-link" href="https://brainglobe.info/about">
-            about
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            publications
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            media
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            atlas API
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            brainreg
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            cellfinder
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            brainrender
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            code
-        </a>
-        <a class="nav-link" href="https://brainglobe.info/about">
-            documentation
-        </a>
-
+        {% for link in header_links -%}
+        <li class="nav-item">
+            <a class="nav-link" href="{{ header_links[link] }}">
+                {{ link }}
+            </a>
+        {% endfor %}
+        </li>
     </ul>
 </nav>
