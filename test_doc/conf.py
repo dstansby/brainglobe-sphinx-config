@@ -8,9 +8,9 @@
 
 from brainglobe_sphinx_config import *
 
-project = 'Brainglobe test'
-copyright = '2023, Test authors'
-author = 'Test authors'
+project = "Brainglobe test"
+copyright = "2023, Test authors"
+author = "Test authors"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -18,4 +18,4 @@ author = 'Test authors'
 extensions = []
 
 
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
