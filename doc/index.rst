@@ -5,4 +5,6 @@ Brainglobe spinx config
    :maxdepth: 2
    :caption: Contents:
 
+   using
+   modifying
    section/index
